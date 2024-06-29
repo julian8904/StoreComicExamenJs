@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Producto</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>Crear producto</h2>
+        <form id="producto-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="precio">Precio:</label>
+            <input type="number" id="precio" name="precio" required>
+            <label for="descripcion">Descripción:</label>
+            <textarea id="descripcion" name="descripcion" required></textarea>
+            <label for="foto">Foto:</label>
+            <input type="file" id="foto" name="foto" required>
+            <button type="submit">Crear producto</button>
+        </form>
+        <button id="mostrar-productos">Mostrar productos</button>
+    </div>
+    <script src="producto.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
